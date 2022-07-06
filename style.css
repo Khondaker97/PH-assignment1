@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url(./images/donation9.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+header .heading {
+  font-size: 5.5rem;
+}
+header > p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px;
+  background-color: #ff5959;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* donate  */
+.donate-please {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.donate-please h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.donate-please h3 {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.donate-please .packages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.packages .package {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+.packages .package li {
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+  border: 2px solid transparent;
+  transition: 0.5s all ease;
+}
+.packages .package li:hover,
+.packages .package li.active {
+  background-color: #ffeeee;
+  color: #ff5959;
+  border: 2px solid #ff5959;
+}
+.donate-please .amount {
+  display: flex;
+  flex-direction: column;
+}
+.donate-please .amount input {
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #b3b3b3;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.donate-please .amount input[type="number"] {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+
+.donate-please .amount button {
+  width: fit-content;
+  align-self: center;
+}
+/* update */
+
+.getUpdate {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.getUpdate h1 {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.getUpdate h3 {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.getUpdate .subscribe {
+  width: 809px;
+  height: 200px;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff4d6;
+}
+
+.subscribe #email {
+  width: 275px;
+  background-color: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 18px;
+}
+.subscribe .sBtn {
+  border-radius: 0px 5px 5px 0px;
+}
+/* footer  */
+footer {
+  height: 30vh;
+  background-color: #0b0d17;
+  color: #d9dbe1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer > h3 {
+  color: #ff5959;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: "Lobster", cursive;
+  line-height: 44px;
+}
+footer > h6 {
+  font-weight: 400;
+  font-size: 14px;
+}
