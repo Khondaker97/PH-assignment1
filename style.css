@@ -11,7 +11,6 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
 header {
   height: 100vh;
   background-image: linear-gradient(
@@ -41,7 +40,6 @@ header > p {
   line-height: 1.8rem;
   margin-bottom: 20px;
 }
-
 .btn {
   padding: 15px;
   background-color: #ff5959;
@@ -90,7 +88,6 @@ header > p {
   font-size: 30px;
   color: #707070;
   border: 2px solid transparent;
-  transition: 0.5s all ease;
 }
 .packages .package li:hover,
 .packages .package li.active {
@@ -111,7 +108,6 @@ header > p {
   text-align: center;
   color: #b3b3b3;
 }
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -128,7 +124,6 @@ input::-webkit-inner-spin-button {
   align-self: center;
 }
 /* plans  */
-
 .donation-plan {
   height: 100vh;
   display: flex;
@@ -149,7 +144,6 @@ input::-webkit-inner-spin-button {
   line-height: 28px;
   margin: 30px;
 }
-
 .plans {
   display: flex;
   gap: 25px;
@@ -183,6 +177,44 @@ input::-webkit-inner-spin-button {
   color: #707070;
 }
 
+/* leaflet  */
+.reliefWork {
+  height: 100vh;
+  display: flex;
+  gap: 80px;
+  padding: 80px 200px;
+}
+.reliefWork.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.reliefWork .title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.reliefWork .title h1 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+}
+.reliefWork .title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin: 20px 0;
+}
+.reliefWork .reliefImg {
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.6);
+}
 /* update */
 
 .getUpdate {
